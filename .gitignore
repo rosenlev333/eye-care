@@ -1,0 +1,16 @@
+# Swift / SPM
+.build/
+.swiftpm/
+Package.resolved
+DerivedData/
+
+# Собранный бандл (регенерируется через ./build_app.sh) — раздаём как release-артефакт
+*.app/
+*.zip
+
+# Промежуточные файлы иконки
+AppIcon.iconset/
+icon_1024.png
+
+# macOS
+.DS_Store
